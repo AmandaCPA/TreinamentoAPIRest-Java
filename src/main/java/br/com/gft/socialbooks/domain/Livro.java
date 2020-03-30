@@ -37,7 +37,7 @@ public class Livro {
 	private List<Comentario> comentarios;
 	
 	@JsonInclude (Include.NON_NULL)
-	private String autorString;
+	private String autor;
 
 	
 	
@@ -100,12 +100,12 @@ public class Livro {
 		this.comentarios = comentarios;
 	}
 
-	public String getAutorString() {
-		return autorString;
+	public String getAutor() {
+		return autor;
 	}
 
-	public void setAutorString(String autorString) {
-		this.autorString = autorString;
+	public void setAutor(String autor) {
+		this.autor = autor;
 	}
 	
 	
